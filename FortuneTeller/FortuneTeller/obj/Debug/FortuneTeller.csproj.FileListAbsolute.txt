@@ -1,0 +1,7 @@
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.csprojAssemblyReference.cache
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.csproj.CoreCompileInputs.cache
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.exe.config
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.exe
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.pdb
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.exe
+C:\Users\Elezibeth\source\repos\RPSLS Project\RPSLS\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.pdb
