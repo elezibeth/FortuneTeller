@@ -33,7 +33,7 @@ namespace FortuneTeller
             fortune = new TellFortune();
             //run fortune teller on fortune;
             fortune.RunFortuneTeller();
-            //display list of fortune telling items(from tell fortune class)
+            
 
             //choose fortune telling item
             //ask a question
