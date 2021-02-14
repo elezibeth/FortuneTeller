@@ -16,6 +16,7 @@ namespace FortuneTeller
         FortuneCookie fortuneCookie;
         public List<FortuneTellingItems> fortuneTellingItemSelected;
         string numberSelection;
+        public List<string> questionAsked;
 
         //ctor
         public TellFortune()
@@ -28,6 +29,7 @@ namespace FortuneTeller
             fortuneCookie = new FortuneCookie("fortune cookie");
             fortuneTellingItems.Add(fortuneCookie);
             fortuneTellingItemSelected = new List<FortuneTellingItems>();
+            questionAsked = new List<string>();
 
 
 
@@ -43,6 +45,14 @@ namespace FortuneTeller
             //choose fortune from displaylist of items()
             //-- select fortunetellingitem
             SelectFortuneTellingItem();
+            //ask a question from selected fortune telling item
+            AskAQuestion();
+
+            //--- console write ask question
+            //-- store input
+            //-- generate return
+            //--- store return 
+
 
             //return fortune
         }
@@ -88,7 +98,7 @@ namespace FortuneTeller
                     break;
                 case "3":
                     fortuneTellingItemSelected.Add(fortuneCookie);
-                    Console.WriteLine($"you have chosen {fortuneTellingItems[0].name}");
+                    Console.WriteLine($"you have chosen {fortuneTellingItems[2].name}");
                     break;
                 default:
                     Console.WriteLine("not a valid option, please choose again");
@@ -99,6 +109,36 @@ namespace FortuneTeller
 
 
             }
+
+        }
+        public void AskAQuestion()
+        {
+
+            switch (numberSelection)
+            {
+                case "1":
+                    
+
+                    Console.WriteLine("What would you like to know?");
+                    break;
+                case "2":
+                    
+                    Console.WriteLine("What would you like to know?");
+                    break;
+                case "3":
+                    
+                    Console.WriteLine("Have a cookie. type 'cookie' and press enter.");
+                    break;
+            }
+                    
+            
+            string input = Console.ReadLine();
+            questionAsked.Add(input);
+
+            //-- generate return
+            
+            fortuneTellingItemSelected[0].TellFortune();
+            //--- store return (return stored as 
         }
 
 

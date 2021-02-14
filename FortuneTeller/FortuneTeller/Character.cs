@@ -33,13 +33,14 @@ namespace FortuneTeller
             fortune = new TellFortune();
             //run fortune teller on fortune;
             fortune.RunFortuneTeller();
-            
+
 
             //choose fortune telling item
             //ask a question
             //store question in a list at index 0
             //generate fortune
             //store fortune in a list at index 0
+            RequestFortune();
         }
 
 
