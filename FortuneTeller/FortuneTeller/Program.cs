@@ -14,6 +14,8 @@ namespace FortuneTeller
             tell.DisplayListOfItems();
             Console.WriteLine("index of items in tell fortune class:");
             tell.DisplayIndexOfItems();
+            Character liz = new Character("Elezibeth");
+            liz.RequestFortune();
 
 
 

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace FortuneTeller
 {
-    abstract class Character
+    class Character
     {
 
         //members
         //-name
         public string characterName;
         public List<string> charactersFortune;
+        public TellFortune fortune;
 
         //has a
         //--name
@@ -20,6 +21,7 @@ namespace FortuneTeller
         {
             this.characterName = characterName;
             charactersFortune = new List<string>();
+            
         }
 
         //can do
@@ -27,7 +29,12 @@ namespace FortuneTeller
         //--request fortune
         public void RequestFortune()
         {
-            //display list of fortune telling items
+            //new Tell Fortune instance
+            fortune = new TellFortune();
+            //run fortune teller on fortune;
+            fortune.RunFortuneTeller();
+            //display list of fortune telling items(from tell fortune class)
+
             //choose fortune telling item
             //ask a question
             //store question in a list at index 0
