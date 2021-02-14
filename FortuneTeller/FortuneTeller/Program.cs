@@ -10,9 +10,10 @@ namespace FortuneTeller
     {
         static void Main(string[] args)
         {
-
-            Character liz = new Character("elezibeth");
-            liz.RequestFortune();
+            Console.WriteLine("Please enter your name");
+            string name = Console.ReadLine();
+            Character you = new Character(name);
+            you.RequestFortune();
 
 
             Console.ReadLine();

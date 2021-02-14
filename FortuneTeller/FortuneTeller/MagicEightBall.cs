@@ -31,27 +31,27 @@ namespace FortuneTeller
             if(computerChoice == 1)
             {
                 Console.WriteLine("Unknown");
-                storeThisFortune = "Unknown";
+                
             }
             if (computerChoice == 2)
             {
                 Console.WriteLine("Unlikely");
-                storeThisFortune = "Unknown";
+                
             }
             if(computerChoice == 3)
             {
                 Console.WriteLine("Your future looks bright");
-                storeThisFortune = "Unknown";
+                
             }
             if(computerChoice == 4)
             {
                 Console.WriteLine("hahaha, give up now");
-                storeThisFortune = "Unknown";
+                
             }
             if(computerChoice == 5)
             {
                 Console.WriteLine("Definitely");
-                storeThisFortune = "Unknown";
+                
             }
 
             

@@ -37,7 +37,7 @@ namespace FortuneTeller
             }
             if (computerChoice == 4)
             {
-                Console.WriteLine("hahaha, give up now");
+                Console.WriteLine("It's not going to snow forever.");
             }
             if (computerChoice == 5)
             {

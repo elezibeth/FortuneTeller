@@ -40,21 +40,13 @@ namespace FortuneTeller
         //cando methods
         public void RunFortuneTeller()
         {
-            //choose fortune teller
+ 
             DisplayListOfItems();
-            //choose fortune from displaylist of items()
-            //-- select fortunetellingitem
             SelectFortuneTellingItem();
-            //ask a question from selected fortune telling item
             AskAQuestion();
+            questionAsked.RemoveAt(0);
+            fortuneTellingItemSelected.RemoveAt(0);
 
-            //--- console write ask question
-            //-- store input
-            //-- generate return
-            //--- store return 
-
-
-            //return fortune
         }
 
 
@@ -120,6 +112,7 @@ namespace FortuneTeller
                     
 
                     Console.WriteLine("What would you like to know?");
+                    
                     break;
                 case "2":
                     
@@ -131,14 +124,9 @@ namespace FortuneTeller
                     break;
             }
                     
-            
             string input = Console.ReadLine();
             questionAsked.Add(input);
-
-            //-- generate return
-            
             fortuneTellingItemSelected[0].TellFortune();
-            //--- store return (return stored as 
         }
 
 

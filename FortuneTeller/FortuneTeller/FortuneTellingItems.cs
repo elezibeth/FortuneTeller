@@ -12,7 +12,7 @@ namespace FortuneTeller
         public string name;
         public int ourRandomNumber;
         public int computerChoice;
-        public string storeThisFortune;
+        
 
         //ctor has a
         public FortuneTellingItems(string name)
@@ -30,6 +30,7 @@ namespace FortuneTeller
             Random number = new Random();
             ourRandomNumber = number.Next(1, 5);
             computerChoice = ourRandomNumber;
+            Console.WriteLine($"your random number selection is {computerChoice}");
         }
 
 
